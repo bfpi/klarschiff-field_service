@@ -14,9 +14,9 @@ de:
   list: Liste
   locate: Ortung
   mobile: mobil
-  page_meta_description: "Melden Sie Probleme in der Infrastruktur der %{city_long}, die dann von der Stadtverwaltung bearbeitet werden."
-  pagetitle: "%{name} – Portal zur Bürgerbeteiligung der %{city_long}"
-  pagetitle_mobile_client: "%{name} – Portal zur Bürgerbeteiligung der %{city_long}"
+  page_meta_description: "Zeigen Sie uns Ihre Wunschstandorte für Fahrradbügel in der KTV."
+  pagetitle: "%{name} der %{city_long}"
+  pagetitle_mobile_client: "%{name} der %{city_long}"
   privacy: Datenschutz
   promotion: Werbung
   success: Vielen Dank!
@@ -163,8 +163,8 @@ de:
     index:
       districts: Ortsteil(e)
       notice: >
-        Sie können Areale und Meldungskategorien auswählen, für die Sie Benachrichtigungen erhalten
-        möchten, sobald passende Meldungen erstellt werden.
+        Sie können Areale auswählen, für die Sie Benachrichtigungen erhalten
+        möchten, sobald neue Meldungen erstellt oder bestehende verändert werden.
       own_area: Eigene Fläche
       whole_area: Gesamtes Gebiet
 

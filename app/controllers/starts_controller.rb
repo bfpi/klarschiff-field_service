@@ -1,7 +1,7 @@
 class StartsController < ApplicationController
   def show
     @request_id = params[:request]
-    return redirect_to "#{ Settings::Url.ks_server_url }#{ map_path(request: @request_id, mobile: true) }" if login_required? || mobile_detected?
+    return redirect_to "#{ Settings::Url.ks_server_url }#{ map_path(request: @request_id) }" if campaign_client?
     states = Settings::Map.default_requests_states.strip.split(', ').select { |s| s != 'PENDING' }.join(', ')
     @requests = Request.where(max_requests: 6, detailed_status: states, keyword: 'problem, idea',
                               with_picture: true)
@@ -14,7 +14,11 @@ class StartsController < ApplicationController
   end
 
   private
-  
+
+  def campaign_client?
+    Settings::Client.service_code
+  end
+
   def mobile_detected?
     client = DeviceDetector.new(request.user_agent)
     if client.known? && client.device_type != 'desktop'

@@ -144,7 +144,7 @@ $ ->
       addr_search.css left: addr_search.offset().left - width
 
   $(document).on 'click', '.header-tab', () ->
-    $.get("/#{ $(@).prop('id') }?back=true", null, null, 'script')
+    $.get("/fahrradbuegel/#{ $(@).prop('id') }?back=true", null, null, 'script')
     false
 
   $(document).on 'click', '#btn-start', () ->

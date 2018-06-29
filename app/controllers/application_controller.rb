@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def set_mobile
-    @mobile = params[:mobile].presence
+    @mobile = false
   end
 
   def set_og_request
