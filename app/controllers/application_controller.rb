@@ -38,4 +38,15 @@ class ApplicationController < ActionController::Base
   def development?
     Rails.env == 'development'
   end
+
+  private
+
+  def mobile_detected?
+    client = DeviceDetector.new(request.user_agent)
+    if client.known? && client.device_type != 'desktop'
+      true
+    else
+      false
+    end
+  end
 end
