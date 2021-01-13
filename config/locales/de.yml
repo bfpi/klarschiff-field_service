@@ -16,13 +16,13 @@ de:
   list: Liste
   locate: Ortung
   mobile: mobil
-  page_meta_description: "Zeigen Sie uns Ihre Wunschstandorte für Fahrradbügel in der KTV."
+  page_meta_description: "Zeige uns Deine Wunschstandorte für Fahrradbügel!"
   pagetitle: "%{name} der %{city_long}"
   pagetitle_mobile_client: "%{name} der %{city_long}"
   privacy: Datenschutz
   promotion: Werbung
   success: Vielen Dank!
-  share_request: ' Gerne können Sie Ihre Meldung aber bereits bekannt machen:'
+  share_request: ' Gerne kannst Du Deine Meldung aber bereits bekannt machen:'
   statistic: Statistik
   usage: Nutzungsbedingungen
   username: Benutzername
@@ -91,8 +91,8 @@ de:
 
   messages:
     success:
-      confirmation: Sie erhalten eine E-Mail, in der Sie Ihre Meldung noch einmal bestätigen müssen.
-      request_update: Ihre Änderungen wurden erfolgreich übertragen.
+      confirmation: Du erhältst eine E-Mail, in der Du Deine Meldung noch einmal bestätigen musst.
+      request_update: Deine Änderungen wurden erfolgreich übertragen.
       request_create:
         one: "1 %{type} wurde erfolgreich angelegt."
         other: "%{count} %{type} wurden erfolgreich angelegt."
@@ -117,11 +117,11 @@ de:
     privacy: Datenschutz
 
   placeholder:
-    abuse: Bitte tragen Sie hier Ihre Missbrauchsmeldung ein.
-    comment: Bitte tragen Sie hier Ihr Lob, Ihre Hinweise oder Ihre Kritik zur Meldung ein.
-    description: Bitten tragen Sie hier Ihre Beschreibung ein.
-    email: Bitte tragen Sie hier Ihre E-Mail-Adresse ein.
-    note: Bitte tragen Sie hier Ihren internen Kommentar zur Meldung ein.
+    abuse: Bitte trage hier Deine Missbrauchsmeldung ein.
+    comment: Bitte trage hier Dein Lob, Deine Hinweise oder Deine Kritik zur Meldung ein.
+    description: Bitte beschreibe so genau wie möglich an welcher Stelle die Bügel gebraucht werden, z. B. vor der Hausnummer, auf der Ecke, zwischen den Laternen usw.
+    email: Bitte trage hier Deine E-Mail-Adresse ein.
+    note: Bitte trage hier Deinen internen Kommentar zur Meldung ein.
     places_search: Ortsteil/Straße/Adresse eingeben…
     select:
       category: Hauptkategorie auswählen…
@@ -144,16 +144,16 @@ de:
     desktop: &abuses
       create:
         error: Fehler bei Missbrauchsmeldung
-        success: Die Missbrauchsmeldung wurde erfolgreich abgesetzt. Sie erhalten in Kürze eine E-Mail, in der Sie Ihre Missbrauchsmeldung noch einmal bestätigen müssen.
+        success: Die Missbrauchsmeldung wurde erfolgreich abgesetzt. Du erhältst in Kürze eine E-Mail, in der Du Deine Missbrauchsmeldung noch einmal bestätigen musst.
       new:
         title: Missbrauch
         text: Beschreibung
         hint:
-          text: 'Einen Missbrauch können und sollten Sie dann melden, wenn durch Beschreibung oder Foto Persönlichkeitsrechte verletzt werden (z. B. wenn auf dem Foto Gesichter oder Kfz-Kennzeichen zu erkennen sind).'
-          warning_html: "Achtung: Wenn Sie einen Missbrauch melden, wird die betroffene Meldung
+          text: 'Einen Missbrauch kannst und solltest Du dann melden, wenn durch Beschreibung oder Foto Persönlichkeitsrechte verletzt werden (z. B. wenn auf dem Foto Gesichter oder Kfz-Kennzeichen zu erkennen sind).'
+          warning_html: "Achtung: Wenn Du einen Missbrauch meldest, wird die betroffene Meldung
             <strong>sofort</strong> und so lange <strong>deaktiviert</strong> (und damit
-            unsichtbar), bis wir Ihren Missbrauchshinweis bearbeitet haben."
-          privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Ihnen eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
+            unsichtbar), bis wir Deinen Missbrauchshinweis bearbeitet haben."
+          privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Dir eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
     mobile:
       <<: *abuses
       create:
@@ -162,14 +162,14 @@ de:
 
   areas:
     areas_form:
-      districts: Bitte wählen Sie in der Karte den/die Ortsteil(e), den/die Sie beobachten möchten.
-      draw: Bitte definieren Sie in der Karte die Ecken einer Fläche, die Sie beobachten möchten. Ein Doppelklick schließt die Fläche.
+      districts: Bitte wähle in der Karte den/die Ortsteil(e), den/die Du beobachten möchtest.
+      draw: Bitte definiere in der Karte die Ecken einer Fläche, die Du beobachten möchtest. Ein Doppelklick schließt die Fläche.
       error: Fehler beim Erstellen der Beobachtungsfläche(n)
     index:
       districts: Ortsteil(e)
       notice: >
-        Sie können Areale auswählen, für die Sie Benachrichtigungen erhalten
-        möchten, sobald neue Meldungen erstellt oder bestehende verändert werden.
+        Du kannst Areale auswählen, für die Du Benachrichtigungen erhalten
+        möchtest, sobald neue Meldungen erstellt oder bestehende verändert werden.
       own_area: Eigene Fläche
       whole_area: Gesamtes Gebiet
 
@@ -183,12 +183,12 @@ de:
         text: Freitext
         recipient: Empfänger
         hint:
-          privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Ihnen eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
+          privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Dir eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
     mobile:
       create:
         error: Fehler bei Lob, Hinweisen oder Kritik
         success: Lob, Hinweise oder Kritik erfolgreich abgesetzt
-        success_text: Ihre Lob, Ihre Hinweise oder Ihre Kritik wird dem entsprechenden Empfänger zugestellt.
+        success_text: Dein Lob, Deine Hinweise oder Deine Kritik wird dem entsprechenden Empfänger zugestellt.
       new:
         <<: *comments
 
@@ -211,7 +211,7 @@ de:
     create:
       error: Fehler bei internem Kommentar
       success: Interner Kommentar erfolgreich abgesetzt
-      success_text: Ihr interner Kommentar wurde zur Meldung hinzugefügt.
+      success_text: Dein interner Kommentar wurde zur Meldung hinzugefügt.
     mobile:
       new:
         title: interner Kommentar
@@ -224,7 +224,7 @@ de:
       feed_title: "%{name}-Meldungen"
       feed_description: "Diese Daten umfassen alle Meldungen in %{name}, dem Portal zur Bürgerbeteiligung der %{city_long}"
       feed_title_observation: "%{name}-Meldungen für Beobachtungsflächen"
-      feed_description_observation: "Diese Daten umfassen die Meldungen für Ihre GeoRSS-Beobachtungsfläche(n) in %{name}, dem Portal zur Bürgerbeteiligung der %{city_long}"
+      feed_description_observation: "Diese Daten umfassen die Meldungen für Deine GeoRSS-Beobachtungsfläche(n) in %{name}, dem Portal zur Bürgerbeteiligung der %{city_long}"
       link: "Meldung in %{name} ansehen"
       img_not_available: nicht vorhanden
       status_notes_not_available: nicht vorhanden
@@ -235,18 +235,18 @@ de:
       link_text: 'GeoRSS-Feed '
       link_title: Meldungen als RSS-Feed abonnieren…
       subscribe_feed: >
-        Bitte abonnieren Sie den folgenden GeoRSS-Feed mit einem RSS-Reader (z. B. RSSOwl,
-        Liferea, Feedly) oder Ihrem Browser:
+        Bitte abonniere den folgenden GeoRSS-Feed mit einem RSS-Reader (z. B. RSSOwl,
+        Liferea, Feedly) oder Deinem Browser:
 
   photos:
     desktop:
       create:
         error: Fehler beim Hochladen eines Fotos
-        success: Das Foto wurde erfolgreich hochgeladen. Sie erhalten in Kürze eine E-Mail, in der Sie Ihr Foto noch einmal bestätigen müssen.
+        success: Das Foto wurde erfolgreich hochgeladen. Du erhältst in Kürze eine E-Mail, in der Du Dein Foto noch einmal bestätigen musst.
     mobile:
       create:
         error: Fehler beim Hochladen eines Fotos
-        success: Das Foto wurde erfolgreich hochgeladen. Sie erhalten in Kürze eine E-Mail, in der Sie Ihr Foto noch einmal bestätigen müssen.
+        success: Das Foto wurde erfolgreich hochgeladen. Du erhältst in Kürze eine E-Mail, in der Du Dein Foto noch einmal bestätigen musst.
 
   places:
     desktop: &places
@@ -260,7 +260,7 @@ de:
   protocols:
     create:
       success: KOD-Protokoll erfolgreich abgesetzt
-      success_text: Ihr KOD-Protokoll wurde erfolgreich gesendet.
+      success_text: Dein KOD-Protokoll wurde erfolgreich gesendet.
     mobile:
       new:
         title: KOD-Protokoll
@@ -286,20 +286,26 @@ de:
     desktop: &requests
       create:
         error: Fehler bei neuer Meldung
-        success: Die Meldung wurde erfolgreich abgesetzt. Sie haben eine E-Mail erhalten, in der Sie Ihre Meldung noch einmal bestätigen müssen. Wenn Sie nicht innerhalb von 24 Stunden bestätigen, wird Ihre Meldung automatisch wieder gelöscht.
+        success: Die Meldung wurde erfolgreich abgesetzt. Du hast eine E-Mail erhalten, in der Du Deine Meldung noch einmal bestätigen musst. Wenn Du nicht innerhalb von 24 Stunden bestätigst, wird Deine Meldung automatisch wieder gelöscht.
       start_request:
-        new_request: Bitte klicken Sie auf eine Meldung in der Karte oder erstellen Sie eine neue Meldung.
+        intro_one: Gemeinsam auf dem Weg zur Fahrradstadt!
+        intro_two: Vielen Dank, dass Du uns mit Deinen Anregungen unterstützt, die Abstellmöglichkeiten für Fahr- und Lastenfahrräder an den richtigen Orten zu verbessern.
+        new_request: Bitte klicke auf eine Meldung in der Karte oder erstelle eine neue Meldung.
+        not_here_one: Für Meldungen anderer Art steht Dir das Portal
+        not_here_two: Klarschiff.HRO
+        not_here_three: zur Verfügung!
         no_complex_requests: Keine komplexen städtebaulichen oder verkehrsplanerischen Sachverhalte!
         no_emergencies: Keine Notfälle!
         no_personal_requests: Keine persönlichen Anfragen (z. B. Adressänderungen oder Leistungsanträge)!
       new: &form_labels
         confirmation: Abschluss
-        confirmation_text_privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Ihnen eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
-        confirmation_text_html: "Nach Klick auf <em>Speichern</em> erhalten Sie an die angegebene Adresse eine <strong>E-Mail,</strong> in der Sie Ihre Meldung noch einmal <strong>bestätigen</strong> müssen."
-        confirmation_text_warning_html: "Wenn Sie nicht innerhalb von <strong>24 Stunden</strong> bestätigen, wird Ihre Meldung automatisch wieder <strong>gelöscht.</strong>"
+        confirmation_text_privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Dir eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
+        confirmation_text_html: "Nach Klick auf <em>Speichern</em> erhältst Du an die angegebene Adresse eine <strong>E-Mail,</strong> in der Du Deine Meldung noch einmal <strong>bestätigen</strong> musst."
+        confirmation_text_warning_html: "Wenn Du nicht innerhalb von <strong>24 Stunden</strong> bestätigst, wird Deine Meldung automatisch wieder <strong>gelöscht.</strong>"
         describe_idea: z. B. Aufstellung eines neuen Fahrradständers oder Änderung einer Ampelschaltung
         describe_problem: z. B. eine defekte Straßenbeleuchtung oder eine ungepflegete Grünanlage
-        place_icon: Bitte markieren Sie die betroffene Stelle möglichst genau auf der Karte. Verschieben Sie dazu den Marker, klicken Sie in die Karte, nutzen Sie die Adressensuche oder die Funktion „Orte mich“.
+        place_hint: Beachte, dass wir nur in den städtischen Bewirtschaftungsflächen aktiv werden können. Du erkennst diese an der lila, leicht transparenten Einfärbung.
+        place_icon: Bitte markiere die betroffene Stelle möglichst genau auf der Karte. Verschiebe dazu den Marker, klicke in die Karte, nutze die Adressensuche oder die Funktion „Orte mich“.
         step_four: Schritt 4/4
         step_one: Schritt 1/4
         step_three: Schritt 3/4
@@ -312,15 +318,15 @@ de:
             type: Meldungstyp muss angegeben werden
             category: Haupt- und Unterkategorie müssen angegeben werden
             description: Beschreibung muss angegeben werden
-        photo_hint: Bitte vermeiden Sie, dass durch das Foto Persönlichkeitsrechte verletzt werden (z. B. wenn auf dem Foto Gesichter oder Kfz-Kennzeichen zu erkennen sind).
+        photo_hint: Bitte vermeide, dass durch das Foto Persönlichkeitsrechte verletzt werden (z. B. wenn auf dem Foto Gesichter oder Kfz-Kennzeichen zu erkennen sind).
         hint:
           label: Hinweis
           text: Vor der Veröffentlichung werden die Beschreibung und das Foto redaktionell überprüft.
-          text_mobile_html: Vor der Veröffentlichung werden die Beschreibung und das Foto redaktionell überprüft. Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Ihnen eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet.
+          text_mobile_html: Vor der Veröffentlichung werden die Beschreibung und das Foto redaktionell überprüft. Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Dir eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet.
         what: Was?
-        problem_or_idea: Melden Sie entweder ein Problem (z. B. defekte Dinge oder Verschmutzungen) oder eine Idee (z. B. neue Dinge oder Änderungswünsche).
+        problem_or_idea: Melde entweder ein Problem (z. B. defekte Dinge oder Verschmutzungen) oder eine Idee (z. B. neue Dinge oder Änderungswünsche).
         what_exactly: Was genau?
-        has_photo: Haben Sie ein Foto?
+        has_photo: Hast Du ein Foto?
         confirm_data: Alle Angaben richtig?
       standard_form:
         <<: *form_labels
@@ -343,9 +349,9 @@ de:
           vote: Unterstützung
           d3_document: d.3-Akte
         confirmation_foto: Abschluss
-        confirmation_foto_text_privacy_html: "Mit Klick auf <em>Foto hochladen</em> wird ein personenbezogenes Datum (die von Ihnen eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
-        confirmation_foto_text_html: "Nach Klick auf <em>Speichern</em> erhalten Sie an die angegebene Adresse eine <strong>E-Mail,</strong> in der Sie Ihr Foto noch einmal <strong>bestätigen</strong> müssen."
-        confirmation_foto_text_warning_html: "Wenn Sie nicht innerhalb von <strong>24 Stunden</strong> bestätigen, wird Ihr Foto automatisch wieder <strong>gelöscht.</strong>"
+        confirmation_foto_text_privacy_html: "Mit Klick auf <em>Foto hochladen</em> wird ein personenbezogenes Datum (die von Dir eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
+        confirmation_foto_text_html: "Nach Klick auf <em>Speichern</em> erhältst Du an die angegebene Adresse eine <strong>E-Mail,</strong> in der Du Dein Foto noch einmal <strong>bestätigen</strong> musst."
+        confirmation_foto_text_warning_html: "Wenn Du nicht innerhalb von <strong>24 Stunden</strong> bestätigst, wird Dein Foto automatisch wieder <strong>gelöscht.</strong>"
         hint_photo_required: "Für diese Meldung wird ein (neues) Foto gewünscht."
         votes_html: "Bisher <span class='request-votes'>%{votes}</span> Unterstützungen"
         votes_under_min_req_html: "Bisher <span class='request-votes under-min-req'>%{votes}</span> Unterstützungen"
@@ -390,21 +396,21 @@ de:
       <<: *starts_show
     mobile:
       <<: *starts_show
-      intro: Probleme und Ideen zu Ihrem lokalen Umfeld mitteilen und online die Bearbeitung verfolgen
+      intro: Probleme und Ideen zu Deinem lokalen Umfeld mitteilen und online die Bearbeitung verfolgen
       button: Meldungen erstellen oder ansehen…
 
   votes:
     desktop: &votes
       create:
         error: Fehler bei Unterstützungsmeldung
-        success: Die Unterstützungsmeldung wurde erfolgreich abgesetzt. Sie erhalten in Kürze eine E-Mail, in der Sie Ihre Unterstützungsmeldung noch einmal bestätigen müssen.
+        success: Die Unterstützungsmeldung wurde erfolgreich abgesetzt. Du erhältst in Kürze eine E-Mail, in der Du Deine Unterstützungsmeldung noch einmal bestätigen musst.
       new:
         title: Unterstützung
         text: Beschreibung
         hint:
-          text: 'Ihre Unterstützung sollten Sie insbesondere dann zeigen, wenn Sie eine Idee gut finden. Sie hilft der Stadtverwaltung zu erkennen, dass der Sachverhalt nicht nur auf einer Einzelmeinung beruht.'
+          text: 'Deine Unterstützung solltest Du insbesondere dann zeigen, wenn Du eine Idee gut findest. Sie hilft der Stadtverwaltung zu erkennen, dass der Sachverhalt nicht nur auf einer Einzelmeinung beruht.'
           warning_html: "Achtung: Unterstützungen dienen nur als Indikator, ähnlich einer Umfrage. Die Prüfung auf Realisierbarkeit ist davon unabhängig und auch bei 20 Unterstützungen nicht garantiert!"
-          privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Ihnen eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
+          privacy_html: "Mit Klick auf <em>Speichern</em> wird ein personenbezogenes Datum (die von Dir eingetragene E-Mail-Adresse) übermittelt und für die in der Datenschutzerklärung beschriebenen Zwecke verwendet."
     mobile:
       <<: *votes
       create:
@@ -426,4 +432,4 @@ de:
       status: Status
       top5: "Top 5"
       request_count: "Meldungen (mit gewählten Filtern)"
-      notice: "Für weiterführende Analysen nutzen Sie gerne unseren RSS-Feed, die API, oder kontaktieren Sie uns."
+      notice: "Für weiterführende Analysen nutze gerne unseren RSS-Feed, die API, oder kontaktiere uns."
