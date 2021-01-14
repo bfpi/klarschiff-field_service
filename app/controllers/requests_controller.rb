@@ -94,6 +94,9 @@ class RequestsController < ApplicationController
       format.html { head(:forbidden) }
       format.js do
         return new_mobile_request if @mobile
+        if params[:switch_bike_type]
+          @bike_type = params[:type]
+        end
         if params[:switch_type]
           @type = params[:type]
         else

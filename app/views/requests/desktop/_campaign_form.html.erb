@@ -28,7 +28,38 @@
   <div class="row form-group">
     <%= label_tag :step, t('.step_two'), class: 'control-label col-md-12' %>
   </div>
-  <div class="row form-group">
+  <div class="row radio-btns" data-url="<%= new_request_path(switch_bike_type: true) %>">
+    <%= label_tag :what, t('.what'), class: 'col-md-12 control-label' %>
+    <div class="col-md-12"><%= t('.bike_type_hint') %></div>
+    <div class="col-md-12 div-margin-top">
+      <%= f.radio_button :bike_type, 'cargo', class: 'radio-type' %> <%= label_tag :request_bike_type_cargo,
+        t('.cargo'), class: 'check-label' %>
+      <br/>
+      <%= f.radio_button :bike_type, 'bike', class: 'radio-type' %> <%= label_tag :request_bike_type_bike,
+        t('.bike'), class: 'check-label' %>
+      <input type="hidden" value="cargo" name="bike_type" id="bike_type" />
+    </div>
+  </div>
+  <div class="row form-group div-margin-top">
+    <%= label_tag :how_many, t('.how_many'), class: 'col-md-12 control-label' %>
+    <div class="col-md-12"><%= t('.quantity_hint') %></div>
+    <div class="col-md-12 div-margin-top">
+      <select name="quantity" id="quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value=">10">mehr als 10</option>
+      </select>
+    </div>
+  </div>
+  <div class="row form-group div-margin-top">
     <%= label_tag :what_exactly, t('.what_exactly'), class: 'col-md-12' %>
     <div class="col-md-12">
       <%= f.text_area(:description, rows: 5, class: 'form-control', placeholder: t('placeholder.description'),

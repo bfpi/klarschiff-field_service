@@ -338,6 +338,12 @@ de:
         step_two: Schritt 2/3
         step_three: Schritt 3/3
         where: Verortung
+        what: Art
+        bike_type_hint: Meldest Du den Bedarf von Lastenfahrradparkplätzen oder Fahrradabstellbügeln?
+        cargo: Lastenfahrradparkplätze
+        bike: Fahrradabstellbügel
+        how_many: Anzahl
+        quantity_hint: Wie viele Lastenfahrradparkplätze bzw. Fahrradabstellbügel werden benötigt?
         what_exactly: Beschreibung
       show:
         actions:
