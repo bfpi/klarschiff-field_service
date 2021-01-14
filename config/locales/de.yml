@@ -21,7 +21,7 @@ de:
   pagetitle_mobile_client: "%{name} der %{city_long}"
   privacy: Datenschutz
   promotion: Werbung
-  success: Vielen Dank!
+  success: Vielen Dank für Deine Begleitung auf dem Weg zur Fahrradstadt Rostock!
   share_request: ' Gerne kannst Du Deine Meldung aber bereits bekannt machen:'
   statistic: Statistik
   usage: Nutzungsbedingungen
@@ -287,6 +287,7 @@ de:
       create:
         error: Fehler bei neuer Meldung
         success: Die Meldung wurde erfolgreich abgesetzt. Du hast eine E-Mail erhalten, in der Du Deine Meldung noch einmal bestätigen musst. Wenn Du nicht innerhalb von 24 Stunden bestätigst, wird Deine Meldung automatisch wieder gelöscht.
+        work_hint: Wir machen uns an die Arbeit, die Vorschläge zu prüfen und im Rahmen des Möglichen Schritt für Schritt umzusetzten.
       start_request:
         intro_one: Gemeinsam auf dem Weg zur Fahrradstadt!
         intro_two: Vielen Dank, dass Du uns mit Deinen Anregungen unterstützt, die Abstellmöglichkeiten für Fahr- und Lastenfahrräder an den richtigen Orten zu verbessern.
@@ -304,7 +305,8 @@ de:
         confirmation_text_warning_html: "Wenn Du nicht innerhalb von <strong>24 Stunden</strong> bestätigst, wird Deine Meldung automatisch wieder <strong>gelöscht.</strong>"
         describe_idea: z. B. Aufstellung eines neuen Fahrradständers oder Änderung einer Ampelschaltung
         describe_problem: z. B. eine defekte Straßenbeleuchtung oder eine ungepflegete Grünanlage
-        place_hint: Beachte, dass wir nur in den städtischen Bewirtschaftungsflächen aktiv werden können. Du erkennst diese an der lila, leicht transparenten Einfärbung.
+        place_hint_one: Beachte, dass wir nur in den städtischen Bewirtschaftungsflächen aktiv werden können. Du erkennst diese an der lila, leicht transparenten Einfärbung.
+        place_hint_two: Beachte bitte außerdem, dass wir Stellen außerhalb der Stadtmitte erst in den nächsten Phasen des Projektes berücksichtigen werden.
         place_icon: Bitte markiere die betroffene Stelle möglichst genau auf der Karte. Verschiebe dazu den Marker, klicke in die Karte, nutze die Adressensuche oder die Funktion „Orte mich“.
         step_four: Schritt 4/4
         step_one: Schritt 1/4
