@@ -1,4 +1,5 @@
 urls:
+  poll_url: https://klarschiff.de/fahrradbuegel/poll
   ks_server_url: https://klarschiff.de
   ks_backend_vorgang_url: https://klarschiff.de/backend/vorgang/%s
   ks_demo_url: https://klarschiff.de
